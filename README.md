@@ -21,7 +21,7 @@ Demo for [Bit6 Cordova Plugin](https://github.com/Telerik-Verified-Plugins/Bit6)
 
 4. Setup a Cloud Function
 
-Follow these [integration steps](https://github.com/bit6/bit6-telerik-integration) to set up a Cloud Function in the Telerik Backend Services.
+   Follow these [integration steps](https://github.com/bit6/bit6-telerik-integration) to set up a Cloud Function in the Telerik Backend Services.
 
 5. [Configure](https://github.com/bit6/bit6-cordova#push-notifications) push notification support.
 
