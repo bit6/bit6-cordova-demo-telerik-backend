@@ -1,0 +1,46 @@
+{
+  "ProjectName": "Bit6 Demo App",
+  "ProjectGuid": "b1a39186-177f-4686-945b-c63cc6633023",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.plugindemo.bit6",
+  "DisplayName": "Bit6 Demo App",
+  "Author": "Telerik",
+  "Description": "Bit6 Demo App",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "3.8.0",
+  "AndroidPermissions": [],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "true",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{f75e42cd-751a-49d4-b409-cf8b52d36c4e}",
+  "WP8ProductID": "{f65c46d0-0206-4a2b-8632-49a656ea39bc}",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ],
+  "CorePlugins": [
+    "org.apache.cordova.device",
+    "org.apache.cordova.dialogs",
+    "org.apache.cordova.network-information",
+    "org.apache.cordova.splashscreen",
+    "org.apache.cordova.statusbar"
+  ],
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8PackageIdentityName": "1234Telerik.com.telerik.plugindemo.bit6"
+}
