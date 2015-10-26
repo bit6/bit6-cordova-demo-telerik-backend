@@ -21,7 +21,7 @@ var app = {
         var b6 = Bit6.init(opts);
         // Init Telerik SDK
         var el = new Everlive({
-            apiKey: 'orHSoM1dxMK1Ynxn',
+            apiKey: '',
             scheme: 'https'
         });
         // Prepare the app
