@@ -6,7 +6,7 @@
   "DisplayName": "Bit6 Demo App",
   "Author": "Telerik",
   "Description": "Bit6 Demo App",
-  "BundleVersion": "1.0",
+  "BundleVersion": "1.0.2",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
     "1",
@@ -14,7 +14,7 @@
   ],
   "iOSBackgroundMode": [],
   "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
-  "FrameworkVersion": "3.8.0",
+  "FrameworkVersion": "4.0.0",
   "AndroidPermissions": [],
   "DeviceOrientations": [
     "Portrait",
@@ -35,11 +35,14 @@
     "ID_RESOLUTION_HD720P"
   ],
   "CorePlugins": [
-    "org.apache.cordova.device",
-    "org.apache.cordova.dialogs",
-    "org.apache.cordova.network-information",
-    "org.apache.cordova.splashscreen",
-    "org.apache.cordova.statusbar"
+    "com.bit6.sdk@0.9.6.1",
+    "com.phonegap.plugins.PushPlugin@3.1.1",
+    "cordova-plugin-device",
+    "cordova-plugin-dialogs",
+    "cordova-plugin-network-information",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-statusbar",
+    "cordova-plugin-whitelist"
   ],
   "WP8WindowsPublisherName": "CN=Telerik",
   "WP8PackageIdentityName": "1234Telerik.com.telerik.plugindemo.bit6"
