@@ -162,10 +162,14 @@ function initApp(b6, el) {
 
     // User has completed the login procedure
     function loginDone() {
+        // The logged-in user display name
+        var name = b6.getNameFromIdentity(b6.session.identity);
+        b6.session.displayName = name;
+        // Update the UI
         $('#welcome').toggle(false);
         $('#main').removeClass('hidden');
         $('#loggedInNavbar').removeClass('hidden');
-        $('#loggedInUser').text( b6.getNameFromIdentity(b6.session.identity) );
+        $('#loggedInUser').text( b6.session.displayName );
         selectFirstChat();
         $('body').removeClass('detail');
     }
@@ -812,9 +816,11 @@ function initApp(b6, el) {
         // Slightly hackier way to close the dropdown
         $('body').trigger('click');
         if (v) {
-            var uri = 'usr:' + v;
-            b6.addEmptyConversation(uri);
-            showChat(uri);
+            if (v.indexOf(':') < 0) {
+                v = 'usr:' + v;
+            }
+            b6.addEmptyConversation(v);
+            showChat(v);
         }
         return false;
     });

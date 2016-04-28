@@ -17,11 +17,11 @@ var app = {
              StatusBar.styleDefault();
         }
         // Init Bit6 SDK
-        var opts = {'apikey': ''}; // TODO: insert your API key here
+        var opts = {'apikey': '''}; // TODO: insert your API key here
         var b6 = Bit6.init(opts);
         // Init Telerik SDK
         var el = new Everlive({
-            apiKey: 'orHSoM1dxMK1Ynxn',
+            apiKey: '',
             scheme: 'https'
         });
         // Prepare the app
