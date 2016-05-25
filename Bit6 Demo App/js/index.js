@@ -25,7 +25,7 @@ var app = {
             scheme: 'https'
         });
         // Prepare the app
-        initApp(b6, el);
+        initApp(b6, el, true);
     }
 };
 
