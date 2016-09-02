@@ -35,7 +35,7 @@
     "ID_RESOLUTION_HD720P"
   ],
   "CorePlugins": [
-    "com.bit6.sdk@0.9.8",
+    "com.bit6.sdk@0.9.9",
     "com.phonegap.plugins.PushPlugin@3.2.0",
     "cordova-plugin-device",
     "cordova-plugin-dialogs",
